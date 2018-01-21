@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+body {
+	background: #151515;
+	background-image: url(../img/forest.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Jura !important
+}
+
+h1 {
+	color: #e4e4e4;
+}
+
+.rad {
+	color: #00f0f2;
+}
+
+p {
+	color: #e4e4e4;
+}
+
+a {
+	color: #e4e4e4;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 0 10px;	
+}
+
+.spook {
+	position: fixed;	
+	left: 0;
+	width: 25%;
+	height: auto;
+	top: 100px;
+}
+
+.antispook {
+	position: fixed;	
+	right: 0;
+	width: 25%;
+	height: auto;
+	top: 100px;
+}
+
+.laser {
+	position: absolute;
+	max-width: 800px;
+	max-height: auto;
+	width: 57.42%;
+	height: auto;	
+	top: 50px;
+	bottom: 0;
+	margin: auto;
+}
+
+.upper {
+	position: fixed;
+	background: #1c1c1c;
+	top: 0;
+	margin: auto;
+	height: 45px;
+	width: 100%;
+	border-bottom: 5px solid #151515;
+}
+
+.supper {
+	height: 45px;
+	width: 100%;
+	position: fixed;
+	background: #1c1c1c;
+	bottom: 0;
+	margin: auto;
+	border-top: 5px solid #151515;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+	padding-top: 10px;
+	
+}
+
+.pic {
+    display: block;
+    max-width: 800px;
+    max-height: auto;
+	width: 100%;
+	height: auto;
+}
+
